@@ -43,6 +43,8 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
 
 		$this->nama = "windy";
+
+		$this->db = db_connect();
 	}
 
 }
