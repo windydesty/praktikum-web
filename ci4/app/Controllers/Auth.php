@@ -7,6 +7,10 @@ class Auth extends BaseController
 { return view('index');
 } 
 
+public function detailindex() 
+{ return view('detailindex');
+} 
+
 public function about() 
 { return view('about');
 }

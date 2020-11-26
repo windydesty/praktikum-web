@@ -56,7 +56,7 @@ Coded by www.creative-tim.com
           <li class="active ">
             <a href="./dashboard.html">
               
-              <p>Dashboard</p>
+              <p>Beranda</p>
             </a>
           </li>
 
