@@ -4,27 +4,27 @@ class Auth extends BaseController
 {
 
     public function index() 
-{ return view('index');
+{ return view('Auth/index/index.php');
 } 
 
 public function detailindex() 
-{ return view('detailindex');
+{ return view('Auth/detailindex/detailindex.php');
 } 
 
 public function about() 
-{ return view('about');
+{ return view('Auth/about/about.php');
 }
 
 public function login() 
-{ return view('login');
+{ return view('Auth/login/login.php');
 }
 
 public function register() 
-{ return view('register');
+{ return view('Auth/register/register.php');
 }
 
 public function admin() 
-{ return view('admin');
+{ return view('Auth/admin');
 } 
 
 
